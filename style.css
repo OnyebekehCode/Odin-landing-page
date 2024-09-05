@@ -1,0 +1,94 @@
+*, *::before *::after{
+    box-sizing: border-box;
+}
+body{ font-family: ROboto, serif, 'Times New ROman';
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ul{list-style-type: none;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+}
+
+li{
+    margin-bottom: 16px;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.hero{
+    background-color: #1f2937;
+}
+
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.hero-text>h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+
+}
+.hero-text>p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-image{}
+
+.highlight-title{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.highlight{}
+
+.images{}
+
+.text{}
+
+.quote{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+ .cto{
+    background-color: #3882f6;
+
+ }
+
+ .title{}
+
+ .sign-text{}
+ button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+ }
+
+ .ctob{
+    border: 2px solid #f9faf8;
+ }
+
+ .footer{
+    background-color: #1f2937;
+ }
