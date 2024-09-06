@@ -52,19 +52,13 @@ a{
     color: #e5e7eb;
 }
 
-.hero-image{}
+
 
 .highlight-title{
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
 }
-
-.highlight{}
-
-.images{}
-
-.text{}
 
 .quote{
     background-color: #e5e7eb;
@@ -77,9 +71,6 @@ a{
 
  }
 
- .title{}
-
- .sign-text{}
  button{
     background-color: #3882f6;
     color: #e5e7eb;
@@ -91,4 +82,9 @@ a{
 
  .footer{
     background-color: #1f2937;
+ }
+ .highlight{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
  }
