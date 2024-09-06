@@ -86,5 +86,30 @@ a{
  .highlight{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+ }
+ .images{
+    flex: 1;
     flex-wrap: wrap;
+ }
+ .hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+}
+ .hero-image{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+ }
+ .hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    margin: 0;
+    padding: 0;
  }
